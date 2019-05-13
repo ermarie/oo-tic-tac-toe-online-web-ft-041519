@@ -17,5 +17,9 @@ class TicTacToe
     @board = [" "," "," "," "," "," "," "," "," "]
   end
 
+  def display_board
+    entries = [" ", "X", "Y"]
+
+  end
 
 end
