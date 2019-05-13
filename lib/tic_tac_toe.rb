@@ -19,6 +19,7 @@ class TicTacToe
 
   def display_board
     entries = [" ", "X", "Y"]
+    puts " X | X | X "
     puts " #{entries[rand(3)]} | #{entries[rand(3)]} | #{entries[rand(3)]} "
     puts " #{entries[rand(3)]} | #{entries[rand(3)]} | #{entries[rand(3)]} "
     puts " #{entries[rand(3)]} | #{entries[rand(3)]} | #{entries[rand(3)]} "
